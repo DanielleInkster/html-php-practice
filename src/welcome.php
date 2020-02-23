@@ -1,5 +1,5 @@
-<html>
-<body>
-    Welcome <?php echo $_POST["name"]; ?><br>
-</body>
-</html>
+
+
+         <?php if(isset($_POST["submit"])){
+             echo "Welcome {$_POST['name']}";
+            }; 
